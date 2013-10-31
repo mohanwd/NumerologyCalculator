@@ -1,22 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-width:100%;
-background-color:#333;	
-	
-	
-}
-
-img{
-	position:relative;
-	left:-156px;
-	top:-200px;
-	-webkit-transform: scale(0.2) skewY(-5deg);
-	-moz-transform: scale(0.2) skewY(-5deg);
-	-o-transform: scale(0.2) skewY(-5deg);
-	-ms-transform: scale(0.2) skewY(-5deg);
-	transform: scale(0.2) skewY(-5deg);
-
-
+    background-color:#333;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*img{*/
+	/*left:-156px;*/
+	/*top:-200px;*/
+	/*-webkit-transform: scale(0.2) skewY(-5deg);*/
+	/*-moz-transform: scale(0.2) skewY(-5deg);*/
+	/*-o-transform: scale(0.2) skewY(-5deg);*/
+	/*-ms-transform: scale(0.2) skewY(-5deg);*/
+	/*transform: scale(0.2) skewY(-5deg);*/
+/*}*/
+.form_wrapper{
+    margin: 2em 0;
+    margin: 0 auto;
+    width: 50%;
+}
+input{
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 15pt;
+}
+.form_wrapper form{
+    margin: 0 auto;
+
+}
+.heading{
+    font-family: helvetica;
+    color: #093;
+    display: inline-block;
+    margin: 1em 0;
+}
+.image_wrapper {
+    width: 100%;
+    margin: 3em 0;
+}
+
+.image_wrapper img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
